@@ -280,10 +280,11 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-bottom: 32px;
 }
 
 .class-item-team {
-    padding-bottom: 32px;
+    padding: 0px;
     border-radius: 0px 0px 4px 4px;
     background-color: var(--main-background-color);
 }

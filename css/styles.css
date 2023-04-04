@@ -83,7 +83,6 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 0;
 }
 
 .header-navigation {
@@ -102,7 +101,6 @@ body {
     color: var(--third-title-color);
     text-decoration: none;
     margin-right: 76px;
-    margin-left: 156px;
 }
 
 .header-logo-studio {
@@ -266,25 +264,22 @@ body {
 .section-team-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    line-height: 24px;
+    letter-spacing: 1.2;
     color: var(--second-title-color);
     margin-top: 32px;
     margin-bottom: 8px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    text-align: center;
 }
 
 .list-photo-paragraph {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-bottom: 32px;
+    line-height: 24px;
+    letter-spacing: 1.5;
+    text-align: center;
 }
 
 .class-item-team {
-    padding: 0px;
+    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
     background-color: var(--main-background-color);
 }
@@ -364,10 +359,12 @@ body {
 }
 
 .portfolio-button:hover {
+    border-color: transparent;
     color: var(--main-background-color);
     background-color: var(--main-title-color);
 }
 .portfolio-button:focus {
+    border-color: transparent;
     color: var(--main-background-color);
     background-color: var(--main-title-color);
 }
@@ -381,11 +378,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    margin-bottom: 32px;
 }
 
 .section-title-paragraph {
-    padding: 32px 0px 0px 16px;
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
@@ -406,7 +402,5 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--second-title-color);
-margin-top: 32px;
 margin-bottom: 8px;
-display: flex;
 }
